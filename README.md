@@ -1,10 +1,15 @@
 
-# Your first neural network
+# First neural network
 
-In this project, you'll build your first neural network and use it to predict daily bike rental ridership. We've provided some of the code, but left the implementation of the neural network up to you (for the most part). After you've submitted this project, feel free to explore the data and the model more.
+Simple 3 layer neural network used to predict daily bike rental ridership. Created in Udacity Deep Learning Class with data from the UCI Machine Learning Database. Can be viewed in HTML or with Jupyter Notebook, the README is the notebook converted to markdown.
 
+## Dependencies
 
+```
+pip install requirements.txt
+```
 
+## Import Statements
 
 ```python
 %matplotlib inline
@@ -35,19 +40,6 @@ rides.head()
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -220,19 +212,6 @@ data.head()
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
-
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -720,12 +699,3 @@ _ = ax.set_xticklabels(dates[12::24], rotation=45)
 
 
 ![png](output_24_0.png)
-
-
-## OPTIONAL: Thinking about your results(this question will not be evaluated in the rubric).
-
-Answer these questions about your results. How well does the model predict the data? Where does it fail? Why does it fail where it does?
-
-> **Note:** You can edit the text in this cell by double clicking on it. When you want to render the text, press control + enter
-
-#### Your answer below
