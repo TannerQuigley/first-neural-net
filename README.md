@@ -634,9 +634,9 @@ The more hidden nodes you have, the more accurate predictions the model will mak
 import sys
 
 ### Set the hyperparameters here ###
-iterations = 3000
+iterations = 3500
 learning_rate = 0.001
-hidden_nodes = 10
+hidden_nodes = 15
 output_nodes = 1
 
 N_i = train_features.shape[1]
